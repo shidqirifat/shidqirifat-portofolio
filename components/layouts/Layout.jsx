@@ -18,11 +18,13 @@ export default function Layout({ children }) {
         />
       </Head>
 
-      <Header />
-      <main className="font-inter mx-6">
-        <div className="max-w-4xl mx-auto">{children}</div>
-      </main>
-      <Footer />
+      <div className="font-inter bg-slate-50 dark:bg-slate-900 transition duration-700">
+        <Header />
+        <main className="mx-6">
+          <div className="max-w-4xl mx-auto">{children}</div>
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }

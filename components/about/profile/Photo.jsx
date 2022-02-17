@@ -3,7 +3,7 @@ import Image from "next/image";
 function PhotoImage({ children }) {
   return (
     <>
-      <div className="w-56 h-56 mx-auto relative mb-6 rounded-full overflow-hidden bg-gradient-to-br from-white to-slate-200">
+      <div className="w-56 h-56 mx-auto relative mb-6 rounded-full overflow-hidden transition duration-700">
         <Image
           src={`/images/${children}.png`}
           alt="Shidqi Rifat Pangestu"
@@ -19,7 +19,9 @@ function PhotoImage({ children }) {
 function PhotoTitle({ children }) {
   return (
     <>
-      <h2 className="text-slate-800 font-bold mb-1 text-xl">{children}</h2>
+      <h2 className="text-slate-800 dark:text-slate-200 font-bold mb-2 text-xl transition">
+        {children}
+      </h2>
     </>
   );
 }
@@ -27,7 +29,9 @@ function PhotoTitle({ children }) {
 function PhotoRole({ children }) {
   return (
     <>
-      <h4 className="text-slate-600 text">{children}</h4>
+      <h4 className="text-slate-600 dark:text-slate-400 transition">
+        {children}
+      </h4>
     </>
   );
 }

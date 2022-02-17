@@ -19,7 +19,7 @@ export default function Footer() {
           link="https://instagram.com/shidqirifat19/"
         />
       </div>
-      <p className="text-slate-600 text-center text-sm">
+      <p className="text-slate-600 dark:text-slate-300 text-center text-sm transition duration-700">
         © 2022 - Shidqi Rifat Pangestu
       </p>
     </div>

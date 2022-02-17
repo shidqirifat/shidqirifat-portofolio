@@ -14,7 +14,7 @@ export default function ProjectDetail({
 }) {
   const stackElement = stacks?.map((stack, index) => (
     <h4
-      className={`mt-2 px-3 py-2 bg-${stack?.color}-200 text-${stack?.color}-900 font-medium inline-block mr-3 rounded-md`}
+      className={`mt-2 px-3 py-2 bg-${stack?.color}-200 text-${stack?.color}-900 dark:bg-${stack?.color}-700 dark:text-${stack?.color}-400 font-medium inline-block mr-3 rounded-md transition`}
       key={index}
     >
       {stack?.name}
@@ -30,11 +30,15 @@ export default function ProjectDetail({
       <ProjectHero title={title} date={date} slug={slug} />
       <div className="mt-8">
         <div>{stackElement}</div>
-        <h3 className="text-xl font-medium text-slate-700 mt-6 mb-3">
+        <h3 className="text-xl font-medium text-slate-700 dark:text-slate-300 mt-6 mb-3 transition">
           About:{" "}
         </h3>
-        <p className="text-lg text-slate-700 mb-6 mr-4 leading-7">{text}</p>
-        <h3 className="text-xl font-medium text-slate-700 my-2">Features: </h3>
+        <p className="text-lg text-slate-700 dark:text-slate-400 mb-6 mr-4 leading-7 transition">
+          {text}
+        </p>
+        <h3 className="text-xl font-medium text-slate-700 dark:text-slate-300 my-2 transition">
+          Features:{" "}
+        </h3>
         <div className="mb-6">{listFeaturesElement}</div>
         <ProjectDetailAnchor link={link} repository={repository} />
       </div>

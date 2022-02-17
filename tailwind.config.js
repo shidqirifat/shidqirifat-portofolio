@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: "class",
   purge: {
     content: [
       "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,17 +8,29 @@ module.exports = {
     safelist: [
       'mb-4',
       'bg-sky-200',
-      'bg-sky-900',
+      'text-sky-900',
+      'bg-sky-700',
+      'text-sky-400',
       'bg-slate-200',
-      'bg-slate-900',
+      'text-slate-900',
+      'bg-slate-700',
+      'text-slate-400',
       'bg-orange-200',
-      'bg-orange-900',
+      'text-orange-900',
+      'bg-orange-700',
+      'text-orange-400',
       'bg-blue-200',
-      'bg-blue-900',
+      'text-blue-900',
+      'bg-blue-700',
+      'text-blue-400',
       'bg-red-200',
-      'bg-red-900',
+      'text-red-900',
+      'bg-red-700',
+      'text-red-400',
       'bg-yellow-200',
-      'bg-yellow-900',
+      'text-yellow-900',
+      'bg-yellow-700',
+      'text-yellow-400',
     ]
   },
   theme: {

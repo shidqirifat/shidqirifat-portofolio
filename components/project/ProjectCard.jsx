@@ -24,10 +24,12 @@ export default function ProjectCard({ date, title, text, link, slug }) {
   return (
     <>
       <Link href={`/project/${slug}`} passHref>
-        <div className="p-6 cursor-pointer shadow-sm rounded-sm flex flex-wrap-reverse  sm:flex-nowrap sm:gap-8 justify-end sm:justify-between border relative hover:bg-slate-50 transition">
+        <div className="p-6 cursor-pointer shadow-sm rounded-sm flex flex-wrap-reverse  sm:flex-nowrap sm:gap-8 justify-end sm:justify-between border border-slate-300 dark:border-slate-700 relative hover:bg-slate-200 dark:hover:bg-slate-800 transition duration-700">
           <div className="w-full sm:w-8/12">
             <SubTitle>{title}</SubTitle>
-            <h3 className="text-slate-500 text-sm mt-2">{date}</h3>
+            <h3 className="text-slate-500 dark:text-slate-300 text-sm mt-2 transition duration-700">
+              {date}
+            </h3>
             <SubContent isProject={true}>{text}</SubContent>
             <span className="group cursor-pointer w-max my-2 absolute bottom-4 left-6">
               <LinkAnchor link={link} external={true}>

@@ -14,13 +14,13 @@ export default function LinkAnchor({
       rel="noreferrer"
       className={`text-sky-500 ${
         !textNormal && "text-sm"
-      } font-semibold group-hover:underline transition group-hover:underline-offset-4 group-hover:text-sky-600`}
+      } font-semibold group-hover:underline transition group-hover:underline-offset-4 group-hover:text-sky-600 dark:group-hover:text-sky-400 duration-700`}
     >
       {children}
     </a>
   ) : (
-    <Link href={`http://${link}`}>
-      <a className="text-lg text-sky-500 font-semibold group-hover:underline transition group-hover:underline-offset-4 group-hover:text-sky-600">
+    <Link href={link}>
+      <a className="text-lg text-sky-500 font-semibold group-hover:underline transition group-hover:underline-offset-4 group-hover:text-sky-600 dark:group-hover:text-sky-400  duration-700">
         {children}
       </a>
     </Link>
@@ -34,7 +34,7 @@ export default function LinkAnchor({
   return (
     <span onClick={stopPropagation}>
       {AnchorElement}
-      <span className="ml-1 text-2xl text-sky-500 group-hover:text-sky-600 font-semibold relative top-[3px] group-hover:left-1 transition">
+      <span className="ml-1 text-2xl text-sky-500 group-hover:text-sky-600 dark:group-hover:text-sky-400 font-semibold relative top-[3px] group-hover:left-1 transition duration-700">
         {symbol}
       </span>
     </span>
