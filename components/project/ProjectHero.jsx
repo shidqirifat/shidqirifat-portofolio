@@ -35,7 +35,7 @@ export default function ProjectHero({ slug, title, date }) {
         </div>
         <div className="absolute left-6 bottom-6 z-20">
           <h2 className="text-2xl text-slate-100 font-bold">{title}</h2>
-          <h3 className="text-lg text-slate-300 mt-1">{date}</h3>
+          <h3 className="text-lg text-slate-300 mt-1">📅 {date}</h3>
         </div>
       </div>
     </>

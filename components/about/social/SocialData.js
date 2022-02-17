@@ -8,7 +8,7 @@ export const DATA = [
   {
     text: "Email: ",
     includeLink: true,
-    link: "maito:rifatpangestu87@gmail.com",
+    link: "mailto:rifatpangestu87@gmail.com",
     textLink: "rifatpangestu87@gmail.com"
   },
   {

@@ -18,7 +18,7 @@ export default function Social() {
       <Title mb={4}>
         <span className="text-neutral-50">🧑‍💻</span> - Profile
       </Title>
-      {socialItemElement}
+      <div className="mt-2">{socialItemElement}</div>
     </>
   );
 }

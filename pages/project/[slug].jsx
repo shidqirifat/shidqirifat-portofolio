@@ -15,6 +15,9 @@ export default function Project() {
         title={project?.title}
         text={project?.text}
         stacks={project?.stacks}
+        features={project?.features}
+        link={project?.link}
+        repository={project?.repository}
         slug={project?.slug}
       />
     </div>

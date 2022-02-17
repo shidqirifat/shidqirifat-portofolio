@@ -24,12 +24,12 @@ export default function Project() {
     <div className="py-10 mb-20">
       <Title>Project That I Have Build</Title>
       <Content>
-        I am always looking for new challenges, and always trying to improve
+        I always looking for new challenges, and always trying to improve
         myself. Here's a list of my projects you might be interested in.
       </Content>
       <div className="flex gap-8 flex-col">{projectItemELement}</div>
       {!inRoute && (
-        <div className="group cursor-pointer mt-4 wma">
+        <div className="group cursor-pointer w-max mt-4">
           <LinkAnchor link="/project" symbol="➡">
             View all projects
           </LinkAnchor>

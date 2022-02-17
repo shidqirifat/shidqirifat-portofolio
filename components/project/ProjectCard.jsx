@@ -12,6 +12,7 @@ export default function ProjectCard({ date, title, text, link, slug }) {
     function watchWidth() {
       setWidthScreen(window.innerWidth);
     }
+    watchWidth();
 
     window.addEventListener("resize", watchWidth);
 
@@ -23,7 +24,7 @@ export default function ProjectCard({ date, title, text, link, slug }) {
   return (
     <>
       <Link href={`/project/${slug}`} passHref>
-        <div className="p-6 cursor-pointer shadow-sm rounded-sm flex flex-wrap-reverse items-center sm:flex-nowrap justify-end sm:justify-between border relative hover:bg-slate-50 transition">
+        <div className="p-6 cursor-pointer shadow-sm rounded-sm flex flex-wrap-reverse  sm:flex-nowrap sm:gap-8 justify-end sm:justify-between border relative hover:bg-slate-50 transition">
           <div className="w-full sm:w-8/12">
             <SubTitle>{title}</SubTitle>
             <h3 className="text-slate-500 text-sm mt-2">{date}</h3>
