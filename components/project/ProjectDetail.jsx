@@ -1,6 +1,6 @@
 import ProjectHero from "./ProjectHero";
 import ListFeatutes from "./ListFeatutes";
-import LinkAnchor from "../link/LinkAnchor";
+import ProjectDetailAnchor from "./ProjectDetailAnchor";
 
 export default function ProjectDetail({
   date,
@@ -36,35 +36,7 @@ export default function ProjectDetail({
         <p className="text-lg text-slate-700 mb-6 mr-4 leading-7">{text}</p>
         <h3 className="text-xl font-medium text-slate-700 my-2">Features: </h3>
         <div className="mb-6">{listFeaturesElement}</div>
-        {(link || repository) && (
-          <div>
-            <h3 className="text-xl font-medium text-slate-700 my-2">Link: </h3>
-            {repository && (
-              <>
-                <p className="group text-lg">
-                  Repository:{" "}
-                  <LinkAnchor
-                    link={repository}
-                    external={true}
-                    textNormal={true}
-                  >
-                    {repository}
-                  </LinkAnchor>
-                </p>
-              </>
-            )}
-            {link && (
-              <>
-                <p className="group text-lg">
-                  Live web:{" "}
-                  <LinkAnchor link={link} external={true} textNormal={true}>
-                    {link}
-                  </LinkAnchor>
-                </p>
-              </>
-            )}
-          </div>
-        )}
+        <ProjectDetailAnchor link={link} repository={repository} />
       </div>
     </>
   );

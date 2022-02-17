@@ -9,6 +9,7 @@ export default function Skills() {
       icons={skill.icons}
       title={skill.title}
       text={skill.text}
+      labels={skill.labels}
       key={index}
     />
   ));

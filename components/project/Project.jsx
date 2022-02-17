@@ -21,7 +21,7 @@ export default function Project() {
   ));
 
   return (
-    <div className="py-10 mb-20">
+    <div className="mb-20">
       <Title>Project That I Have Build</Title>
       <Content>
         I always looking for new challenges, and always trying to improve
