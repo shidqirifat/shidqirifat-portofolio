@@ -3,7 +3,7 @@ import Content from "../../section/Content";
 
 export default function Summary() {
   return (
-    <>
+    <div className="about">
       <Title mb={4}>Summary</Title>
       <Content isSummary={true}>
         I am a software/frontend developer with 1 year of experience
@@ -13,6 +13,6 @@ export default function Summary() {
         reading. As well, I love to travel and see new places and meet new
         people.
       </Content>
-    </>
+    </div>
   );
 }

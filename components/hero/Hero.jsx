@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import LinkAnchor from "../link/LinkAnchor";
+import { gsap } from "gsap";
 
 export default function Hero() {
+  useEffect(() => {
+    gsap.from("#hero", { y: 60, opacity: 0, duration: 0.4 });
+  }, []);
+
   return (
-    <div className="flex flex-col justify-center min-h-screen">
+    <div id="hero" className="flex flex-col justify-center min-h-screen">
       <h1 className="text-transparent text-4xl font-bold mb-6 bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         Hello, I'm Shidqi <span className="text-neutral-50">👋</span>
       </h1>

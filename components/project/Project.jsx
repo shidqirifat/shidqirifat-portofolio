@@ -22,12 +22,16 @@ export default function Project() {
 
   return (
     <div className="mb-20">
-      <Title>Project That I Have Build</Title>
-      <Content>
-        I always looking for new challenges, and always trying to improve
-        myself. Here's a list of my projects you might be interested in.
-      </Content>
-      <div className="flex gap-8 flex-col">{projectItemELement}</div>
+      <div className="project-title">
+        <Title>Project That I Have Build</Title>
+        <Content>
+          I always looking for new challenges, and always trying to improve
+          myself. Here's a list of my projects you might be interested in.
+        </Content>
+      </div>
+      <div className="project-item flex gap-8 flex-col">
+        {projectItemELement}
+      </div>
       {!inRoute && (
         <div className="group cursor-pointer w-max mt-4">
           <LinkAnchor link="/project" symbol="➡">

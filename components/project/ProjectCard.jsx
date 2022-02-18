@@ -4,11 +4,14 @@ import SubTitle from "../section/SubTitle";
 import SubContent from "../section/SubContent";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import aosAnimate from "../utils/aosAnimate";
 
 export default function ProjectCard({ date, title, text, link, slug }) {
   const [widthScreen, setWidthScreen] = useState(null);
 
   useEffect(() => {
+    aosAnimate(".project-card");
+
     function watchWidth() {
       setWidthScreen(window.innerWidth);
     }
@@ -24,7 +27,10 @@ export default function ProjectCard({ date, title, text, link, slug }) {
   return (
     <>
       <Link href={`/project/${slug}`} passHref>
-        <div className="p-6 cursor-pointer shadow-sm rounded-sm flex flex-wrap-reverse  sm:flex-nowrap sm:gap-8 justify-end sm:justify-between border border-slate-300 dark:border-slate-700 relative hover:bg-slate-200 dark:hover:bg-slate-800 transition duration-700">
+        <div
+          id="project"
+          className="project-card opacity-0 p-6 cursor-pointer shadow-sm rounded-sm flex flex-wrap-reverse  sm:flex-nowrap sm:gap-8 justify-end sm:justify-between border border-slate-300 dark:border-slate-700 relative hover:bg-slate-200 dark:hover:bg-slate-800 transition duration-700"
+        >
           <div className="w-full sm:w-8/12">
             <SubTitle>{title}</SubTitle>
             <h3 className="text-slate-500 dark:text-slate-300 text-sm mt-2 transition duration-700">

@@ -10,11 +10,11 @@ export default function Timelines() {
   ));
 
   return (
-    <>
+    <div className="about">
       <Title mb={4}>
         <span className="text-neutral-50">🌱</span> - Timeline
       </Title>
       {timelineElement}
-    </>
+    </div>
   );
 }

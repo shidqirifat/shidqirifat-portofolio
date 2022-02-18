@@ -14,11 +14,11 @@ export default function Social() {
   ));
 
   return (
-    <>
+    <div className="about">
       <Title mb={4}>
         <span className="text-neutral-50">🧑‍💻</span> - Profile
       </Title>
       <div className="mt-2">{socialItemElement}</div>
-    </>
+    </div>
   );
 }
