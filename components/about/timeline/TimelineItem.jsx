@@ -1,7 +1,13 @@
 import TimelineSubTitle from "../../section/TimelineSubTitle";
 import ListAbout from "../../section/ListAbout";
+import aosAnimate from "../../utils/aosAnimate";
+import { useEffect } from "react";
 
 export default function TimelineItem({ year, data }) {
+  useEffect(() => {
+    aosAnimate(".timeline-item");
+  });
+
   const dataTimelineElement = data.map((tl, index) => (
     <ListAbout
       list={tl.list}
@@ -15,7 +21,7 @@ export default function TimelineItem({ year, data }) {
   ));
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 timeline-item">
       <TimelineSubTitle>{year}</TimelineSubTitle>
       <div className="ml-[70px]">{dataTimelineElement}</div>
     </div>

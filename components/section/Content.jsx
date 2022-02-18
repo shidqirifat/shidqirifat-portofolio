@@ -10,7 +10,7 @@ export default function Content({ children }) {
     <>
       <p
         id="content-section"
-        className="text-slate-600 dark:text-slate-200 text-lg mr-5 leading-7 mb-6 transition"
+        className="about text-slate-600 dark:text-slate-200 text-lg mr-5 leading-7 mb-6 transition"
       >
         {children}
       </p>

@@ -21,7 +21,7 @@ export default function ProjectHero({ slug, title, date }) {
 
   return (
     <>
-      <div className="w-full h-96 rounded-2xl relative overflow-hidden">
+      <div className="project-hero w-full h-96 rounded-2xl relative overflow-hidden">
         <div className="bg-gradient-to-b from-white/0 to-slate-800 absolute inset-0 z-10"></div>
         <div className="h-full relative">
           <Image

@@ -16,8 +16,8 @@ export default function Home() {
         y: 0,
         opacity: 1,
         duration: 0.1,
-        delay: 0.4,
-        stagger: 0.4,
+        delay: 0.2,
+        stagger: 0.1,
       }
     );
   }, []);

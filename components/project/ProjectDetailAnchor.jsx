@@ -13,13 +13,13 @@ export default function ProjectDetailAnchor({ link, repository = false }) {
     <>
       {(link || repository) && (
         <div>
-          <h3 className="text-xl font-medium text-slate-700 dark:text-slate-300 my-2 transition ">
+          <h3 className="project-detail text-xl font-medium text-slate-700 dark:text-slate-300 my-2 transition ">
             Link:{" "}
           </h3>
           <div className="flex flex-wrap md:gap-8 lg:flex-nowrap items-center">
             {link && (
               <>
-                <p className="group text-lg inline">
+                <p className="project-detail group text-lg inline">
                   <LinkAnchor
                     link={link}
                     symbol=""
@@ -34,7 +34,7 @@ export default function ProjectDetailAnchor({ link, repository = false }) {
             )}
             {repository && (
               <>
-                <p className="group text-lg inline">
+                <p className="project-detail group text-lg inline">
                   <LinkAnchor
                     link={repository}
                     symbol=""

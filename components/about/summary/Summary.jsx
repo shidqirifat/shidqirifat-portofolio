@@ -3,7 +3,7 @@ import Content from "../../section/Content";
 
 export default function Summary() {
   return (
-    <div className="about">
+    <div className="about mb-4">
       <Title mb={4}>Summary</Title>
       <Content isSummary={true}>
         I am a software/frontend developer with 1 year of experience
