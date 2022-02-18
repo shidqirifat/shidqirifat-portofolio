@@ -36,9 +36,11 @@ export default function ProjectDetail({
         <p className="text-lg text-slate-700 dark:text-slate-400 mb-6 mr-4 leading-7 transition">
           {text}
         </p>
-        <h3 className="text-xl font-medium text-slate-700 dark:text-slate-300 my-2 transition">
-          Features:{" "}
-        </h3>
+        {features && (
+          <h3 className="text-xl font-medium text-slate-700 dark:text-slate-300 my-2 transition">
+            Features:{" "}
+          </h3>
+        )}
         <div className="mb-6">{listFeaturesElement}</div>
         <ProjectDetailAnchor link={link} repository={repository} />
       </div>

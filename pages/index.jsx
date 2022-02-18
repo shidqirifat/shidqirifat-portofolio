@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Skills />
-      <Project />
+      <Project inHome={true} />
       <Contacts />
     </>
   );

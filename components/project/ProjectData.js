@@ -16,13 +16,13 @@ export const DATA = [
         color: 'slate'
       },
       {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
         name: 'HTML',
         color: 'orange'
       },
-      {
-        name: 'CSS',
-        color: 'blue'
-      }
     ],
     features: [
       'Add task to focus time',
@@ -56,13 +56,13 @@ export const DATA = [
         color: 'orange'
       },
       {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
         name: 'HTML',
         color: 'orange'
       },
-      {
-        name: 'CSS',
-        color: 'blue'
-      }
     ],
     features: [
       'Chart to analyze members performance',
@@ -90,17 +90,124 @@ export const DATA = [
         color: 'slate'
       },
       {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
         name: 'HTML',
         color: 'orange'
       },
-      {
-        name: 'CSS',
-        color: 'blue'
-      }
     ],
     features: [
       'Monitor amount of the spread of the covid virus',
       'Search by country',
+    ],
+  },
+  {
+    date: "November 2021",
+    title: "Travel Landing Page",
+    text: "Slicing design from the sketch to the responsive web. This project is my experiment using swiper.js based tutorial on youtube.",
+    link: "shidqirifat.github.io/travel-landing-page/",
+    repository: "github.com/shidqirifat/travel-landing-page.git",
+    slug: 'travel-landing-page',
+    stacks: [
+      {
+        name: 'Javascript',
+        color: 'yellow'
+      },
+      {
+        name: 'Swiper.js',
+        color: 'slate'
+      },
+      {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
+        name: 'HTML',
+        color: 'orange'
+      },
+    ],
+    features: [
+      'Responsive page',
+    ],
+  },
+  {
+    date: "October 2021",
+    title: "Sunny Side Landing Page",
+    text: "Slicing design from the sketch to the responsive web. This project is submission on Yaumi Digital School.",
+    link: "shidqirifat.github.io/sunnyside-shidqi/",
+    repository: "github.com/shidqirifat/sunnyside-shidqi.git",
+    slug: 'sunnyside',
+    stacks: [
+      {
+        name: 'Javascript',
+        color: 'yellow'
+      },
+      {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
+        name: 'HTML',
+        color: 'orange'
+      },
+    ],
+  },
+  {
+    date: "July 2021",
+    title: "BookShelf App",
+    text: "Application to create a list of books that want and are reading, features add books, mark as read, unmark read, and remove from the list.Slicing design from the sketch to the responsive web. This project is submission on Dicoding.",
+    link: "shidqirifat.github.io/BookShelf/",
+    repository: "github.com/shidqirifat/BookShelf.git",
+    slug: 'book-shelf-app',
+    stacks: [
+      {
+        name: 'Javascript',
+        color: 'yellow'
+      },
+      {
+        name: 'Local Storage',
+        color: 'slate'
+      },
+      {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
+        name: 'HTML',
+        color: 'orange'
+      },
+    ],
+    features: [
+      'Add, Mark as finish read, and delete book',
+      'List still exist even if the browser is closed',
+      'Responsive page',
+    ],
+  },
+  {
+    date: "June 2021",
+    title: "Puun",
+    text: "Landing page website to introduce the store. Consists of sections Home, Products, Testimonials, Messages, and About the author. This project is submission on Dicoding.",
+    link: "shidqirifat.github.io/Puun/",
+    repository: "github.com/shidqirifat/Puun.git",
+    slug: 'puun',
+    stacks: [
+      {
+        name: 'Javascript',
+        color: 'yellow'
+      },
+      {
+        name: 'CSS',
+        color: 'blue'
+      },
+      {
+        name: 'HTML',
+        color: 'orange'
+      },
+    ],
+    features: [
+      'Responsive page',
     ],
   },
 ]

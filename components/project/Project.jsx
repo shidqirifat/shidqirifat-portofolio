@@ -4,12 +4,19 @@ import Content from "../section/Content";
 import ProjectCard from "./ProjectCard";
 import { useRouter } from "next/router";
 import { DATA } from "./ProjectData";
+import { useEffect } from "react";
+import aosAnimate from "../utils/aosAnimate";
 
-export default function Project() {
+export default function Project({ inHome = false }) {
   const router = useRouter();
   const inRoute = router.pathname == "/project" ? true : false;
 
-  const projectItemELement = DATA.map((project, index) => (
+  useEffect(() => {
+    aosAnimate(".project-all");
+  }, []);
+
+  const Projects = inHome ? DATA.slice(0, 3) : DATA;
+  const projectItemELement = Projects.map((project, index) => (
     <ProjectCard
       date={project.date}
       title={project.title}
@@ -33,7 +40,7 @@ export default function Project() {
         {projectItemELement}
       </div>
       {!inRoute && (
-        <div className="group cursor-pointer w-max mt-4">
+        <div className="project-all group cursor-pointer w-max mt-4">
           <LinkAnchor link="/project" symbol="➡">
             View all projects
           </LinkAnchor>
