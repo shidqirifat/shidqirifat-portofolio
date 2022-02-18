@@ -10,6 +10,7 @@ function PhotoImage({ children }) {
           layout="fill"
           objectFit="cover"
           className="scale-110"
+          priority
         />
       </div>
     </>

@@ -2,7 +2,13 @@ import GitHub from "../../public/icons/github.svg";
 import Web from "../../public/icons/web.svg";
 import LinkAnchor from "../link/LinkAnchor";
 
-export default function ProjectDetailAnchor({ link, repository }) {
+export default function ProjectDetailAnchor({ link, repository = false }) {
+  let textRepo = "";
+  if (repository) {
+    const linkRepo = repository.split("/");
+    textRepo = `@${linkRepo[1]}/${linkRepo[2]}`;
+  }
+
   return (
     <>
       {(link || repository) && (
@@ -36,7 +42,7 @@ export default function ProjectDetailAnchor({ link, repository }) {
                     textNormal={true}
                   >
                     <GitHub className="fill-slate-700 group-hover:fill-slate-900 dark:fill-slate-500 dark:group-hover:fill-slate-400 w-8 inline-block mr-4 transition" />
-                    {repository}
+                    {textRepo}
                   </LinkAnchor>
                 </p>
               </>

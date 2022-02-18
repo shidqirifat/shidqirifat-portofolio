@@ -25,7 +25,7 @@ export const DATA = [
     data: [
       {
         list: true,
-        text: 'Graduate from Politeknik Negeri Jakarta (Electrical Engineering) with GPA 3.54.',
+        text: 'Graduate from Politeknik Negeri Jakarta in Electrical Engineering Departement with GPA 3.54.',
       },
       {
         list: true,
@@ -59,7 +59,7 @@ export const DATA = [
       },
       {
         list: true,
-        text: 'Be a volunteer of ',
+        text: 'Volunteer of ',
         includeLink: true,
         link: 'https://www.instagram.com/pnjmengabdi/',
         textLink: 'PNJ Mengabdi 2020.',
@@ -79,22 +79,22 @@ export const DATA = [
       },
       {
         list: true,
-        text: `Become a Project Officer of Gebyar PKM whose event aims to introduce the "Program Kreativitas Mahasiswa" to students.`,
+        text: `Project Officer of Gebyar PKM, an event aims to introduce the "Program Kreativitas Mahasiswa" to students.`,
       },
       {
         list: true,
-        text: "Become a Head Education and Science of ",
+        text: "Head Education and Science of ",
         includeLink: true,
         link: 'https://www.instagram.com/psychorobotic_pnj/',
         textLink: 'Psychorobotic.',
       },
       {
         list: true,
-        text: "Join student community that engaged in science and writing called ",
+        text: "Member of ",
         includeLink: true,
         link: 'https://www.instagram.com/marsproject_pnj/',
         textLink: 'Mars Project',
-        afterLink: ' as a member.'
+        afterLink: ', a student community that engaged in science and writing'
       },
     ]
   },
@@ -103,19 +103,19 @@ export const DATA = [
     data: [
       {
         list: true,
-        text: "Join student community in Electrical Engineering Department called ",
+        text: "Member of ",
         includeLink: true,
         link: 'https://www.instagram.com/psychorobotic_pnj/',
         textLink: 'Psychorobotic',
-        afterLink: ' as a member.'
+        afterLink: ', a student community that engaged in robotic and electronic'
       },
       {
         list: true,
-        text: "Join student community that engaged in Islamic da'wah called ",
+        text: "Member of ",
         includeLink: true,
         link: 'https://www.instagram.com/ldk_fikri_pnj/',
         textLink: 'LDK Fikri',
-        afterLink: ' as a member.'
+        afterLink: ', a student community that engaged in Islamic activity'
       },
       {
         list: true,

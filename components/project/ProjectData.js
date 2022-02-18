@@ -35,7 +35,7 @@ export const DATA = [
   {
     date: "January 2022",
     title: "Istiqomah",
-    text: "Website based application to record daily worship activities of Muslims. If you have a group of people who want to compete in goodness, this application can help you analyze the worship performance of your members and display it in the form of graphs and excel reports.",
+    text: "Website based application to record daily worship activities of Muslims. If you have a group of people who want to compete in goodness, this application can help you analyze the worship performance of your members and display it in the form of graphs and excel reports. This project is power by Yaumi.",
     link: "istiqomah.yaumi.id",
     slug: 'istiqomah',
     stacks: [

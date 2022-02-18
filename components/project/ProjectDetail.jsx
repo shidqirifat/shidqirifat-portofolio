@@ -14,7 +14,7 @@ export default function ProjectDetail({
 }) {
   const stackElement = stacks?.map((stack, index) => (
     <h4
-      className={`mt-2 px-3 py-2 bg-${stack?.color}-200 text-${stack?.color}-900 dark:bg-${stack?.color}-700 dark:text-${stack?.color}-400 font-medium inline-block mr-3 rounded-md transition`}
+      className={`mt-2 px-3 py-2 bg-${stack?.color}-200 text-${stack?.color}-900 font-medium inline-block mr-3 rounded-md transition`}
       key={index}
     >
       {stack?.name}
