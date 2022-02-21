@@ -6,7 +6,7 @@ export default function NavItem({ children, link, activeLink, openMenu }) {
   const path = router.pathname.split("/")[1];
   const active =
     path === activeLink
-      ? "bg-slate-200 dark:bg-slate-700 sm:bg-slate-50 sm:dark:bg-slate-900 border-[3px] border-sky-400 sm:border-0 text-black dark:text-slate-100 font-medium transition duration-700"
+      ? "bg-slate-200 dark:bg-slate-700 sm:bg-slate-50/0 sm:dark:bg-slate-900/0 border-[3px] border-sky-400 sm:border-0 text-black dark:text-slate-100 font-medium transition duration-700"
       : "text-slate-600 dark:text-slate-200 transition duration-700";
 
   return (

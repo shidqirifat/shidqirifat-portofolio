@@ -25,7 +25,7 @@ export default function ProjectDetail({
       opacity: 0,
       duration: 0.1,
       delay: 0.3,
-      stagger: 0.3,
+      stagger: 0.2,
     });
     gsap.from(".project-detail", {
       y: 60,

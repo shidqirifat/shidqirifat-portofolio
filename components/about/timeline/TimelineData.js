@@ -94,7 +94,7 @@ export const DATA = [
         includeLink: true,
         link: 'https://www.instagram.com/marsproject_pnj/',
         textLink: 'Mars Project',
-        afterLink: ', a student community that engaged in science and writing'
+        afterLink: ', a student community that engaged in science and writing.'
       },
     ]
   },
@@ -107,7 +107,7 @@ export const DATA = [
         includeLink: true,
         link: 'https://www.instagram.com/psychorobotic_pnj/',
         textLink: 'Psychorobotic',
-        afterLink: ', a student community that engaged in robotic and electronic'
+        afterLink: ', a student community that engaged in robotic and electronic.'
       },
       {
         list: true,
@@ -115,7 +115,7 @@ export const DATA = [
         includeLink: true,
         link: 'https://www.instagram.com/ldk_fikri_pnj/',
         textLink: 'LDK Fikri',
-        afterLink: ', a student community that engaged in Islamic activity'
+        afterLink: ', a student community that engaged in Islamic activity.'
       },
       {
         list: true,

@@ -157,7 +157,7 @@ export const DATA = [
   {
     date: "July 2021",
     title: "BookShelf App",
-    text: "Application to create a list of books that want and are reading, features add books, mark as read, unmark read, and remove from the list.Slicing design from the sketch to the responsive web. This project is submission on Dicoding.",
+    text: "Application to create a list of books that want and are reading. Slicing design from the sketch to the responsive web. This project is submission on Dicoding.",
     link: "shidqirifat.github.io/BookShelf/",
     repository: "github.com/shidqirifat/BookShelf.git",
     slug: 'book-shelf-app',
