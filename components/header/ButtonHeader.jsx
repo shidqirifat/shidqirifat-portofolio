@@ -21,7 +21,8 @@ function ButtonMenu({ openMenu }) {
 
 function ButtonTheme({ setTheme, theme }) {
   useEffect(() => {
-    switchTheme();
+    const themeBefore = localStorage.getItem("theme" || false);
+    if (!themeBefore) switchTheme();
   }, []);
 
   function switchTheme() {
