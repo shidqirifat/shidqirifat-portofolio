@@ -21,7 +21,7 @@ export default function ListAbout({
             href={link}
             target={`${resume ? "_self" : "_blank"}`}
             rel="noreferrer"
-            download={resume ? "Resume_Shidqi Rifat Pangestu" : ""}
+            download
             className="text-sky-500 font-medium hover:text-sky-600 dark:hover:text-sky-400 hover:underline hover:underline-offset-4 transition"
           >
             {textLink}

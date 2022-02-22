@@ -17,7 +17,7 @@ export default function Timelines() {
       <ListAbout
         text="More detail download "
         includeLink={true}
-        link="/resume/resume.pdf"
+        link="/resume/Resume_Shidqi Rifat Pangestu.pdf"
         textLink="My Resume"
         afterLink="."
         resume={true}
