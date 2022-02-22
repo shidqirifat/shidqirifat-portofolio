@@ -14,6 +14,14 @@ export default function Timelines() {
       <Title mb={4}>
         <span className="text-neutral-50">🌱</span> - Timeline
       </Title>
+      <ListAbout
+        text="More detail download "
+        includeLink={true}
+        link="/resume/resume.pdf"
+        textLink="My Resume"
+        afterLink="."
+        resume={true}
+      />
       {timelineElement}
     </div>
   );

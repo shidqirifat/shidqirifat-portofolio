@@ -32,21 +32,24 @@ export const DATA = [
         text: 'Awardee of Full-Stack Web Development from ',
         includeLink: true,
         link: 'https://www.instagram.com/yaumidigital.school/',
-        textLink: 'Yaumi Digital School.',
+        textLink: 'Yaumi Digital School',
+        afterLink: '.'
       },
       {
         list: true,
         text: 'Awardee of Full-Stack Web Development from ',
         includeLink: true,
         link: 'https://digitalent.kominfo.go.id/',
-        textLink: 'Digital Talent Scholarship.',
+        textLink: 'Digital Talent Scholarship',
+        afterLink: '.'
       },
       {
         list: true,
         text: 'Awardee of Front-End Web Development Path from ',
         includeLink: true,
         link: 'https://idcamp.indosatooredoo.com/',
-        textLink: 'IDCamp Indosat Ooredoo.',
+        textLink: 'IDCamp Indosat Ooredoo',
+        afterLink: '.'
       },
     ]
   },
@@ -62,7 +65,8 @@ export const DATA = [
         text: 'Volunteer of ',
         includeLink: true,
         link: 'https://www.instagram.com/pnjmengabdi/',
-        textLink: 'PNJ Mengabdi 2020.',
+        textLink: 'PNJ Mengabdi 2020',
+        afterLink: '.'
       },
     ]
   },
@@ -86,7 +90,8 @@ export const DATA = [
         text: "Head Education and Science of ",
         includeLink: true,
         link: 'https://www.instagram.com/psychorobotic_pnj/',
-        textLink: 'Psychorobotic.',
+        textLink: 'Psychorobotic',
+        afterLink: '.'
       },
       {
         list: true,

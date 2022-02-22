@@ -5,6 +5,7 @@ export default function ListAbout({
   link = "",
   textLink = "",
   afterLink = "",
+  resume = false,
 }) {
   return (
     <div className="flex">
@@ -18,8 +19,9 @@ export default function ListAbout({
         {includeLink && (
           <a
             href={link}
-            target="_blank"
+            target={`${resume ? "_self" : "_blank"}`}
             rel="noreferrer"
+            download={resume ? "Resume_Shidqi Rifat Pangestu" : ""}
             className="text-sky-500 font-medium hover:text-sky-600 dark:hover:text-sky-400 hover:underline hover:underline-offset-4 transition"
           >
             {textLink}
