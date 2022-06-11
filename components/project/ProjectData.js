@@ -1,35 +1,63 @@
 export const DATA = [
   {
+    date: "May 2022",
+    title: "Personal Notes",
+    text: "Website to write notes with features search notes and archive notes. This is the project submission that led me to pass the Build Web App with React class on Dicoding.",
+    link: "personal-notes-sand.vercel.app/",
+    repository: "github.com/shidqirifat/personal-notes.git",
+    slug: "personal-notes",
+    stacks: [
+      {
+        name: "React.js",
+        color: "sky",
+      },
+      {
+        name: "CSS",
+        color: "blue",
+      },
+      {
+        name: "HTML",
+        color: "orange",
+      },
+    ],
+    features: [
+      "Add, edit, and delete note",
+      "Search and archive notes",
+      "Fully responsive",
+      "Generate random quotes",
+    ],
+  },
+  {
     date: "February 2022",
     title: "Pomodoro Timer",
     text: "Tools that can help you be more productive when you need to focus on your work. If you are a person who easily loses focus, this app can help you to manage when you need to focus and break with the Pomodoro method.",
     link: "shidqi-pomodoro.netlify.app",
     repository: "github.com/shidqirifat/pomodoro-timer.git",
-    slug: 'pomodoro-timer',
+    slug: "pomodoro-timer",
     stacks: [
       {
-        name: 'React.js',
-        color: 'sky'
+        name: "React.js",
+        color: "sky",
       },
       {
-        name: 'Local Storage',
-        color: 'slate'
+        name: "Local Storage",
+        color: "slate",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
     features: [
-      'Add task to focus time',
-      'Sound and display notification',
-      'Progressive Web App / can install and work offline',
-      'Set long of timer',
-      'Switch background color between mode to keep your mood',
+      "Add task to focus time",
+      "Sound and display notification",
+      "Progressive Web App / can install and work offline",
+      "Set long of timer",
+      "Switch background color between mode to keep your mood",
     ],
   },
   {
@@ -37,40 +65,40 @@ export const DATA = [
     title: "Istiqomah",
     text: "Website based application to record daily worship activities of Muslims. If you have a group of people who want to compete in goodness, this application can help you analyze the worship performance of your members and display it in the form of graphs and excel reports. This project is power by Yaumi.",
     link: "istiqomah.yaumi.id",
-    slug: 'istiqomah',
+    slug: "istiqomah",
     stacks: [
       {
-        name: 'Laravel',
-        color: 'red'
+        name: "Laravel",
+        color: "red",
       },
       {
-        name: 'Javascript',
-        color: 'yellow'
+        name: "Javascript",
+        color: "yellow",
       },
       {
-        name: 'Chart.js',
-        color: 'yellow'
+        name: "Chart.js",
+        color: "yellow",
       },
       {
-        name: 'MySQL',
-        color: 'orange'
+        name: "MySQL",
+        color: "orange",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
     features: [
-      'Chart to analyze members performance',
-      'Export report activity to the excel document',
-      'See ranking in group',
-      'Add group and join group',
-      'Set target activity to the group',
-      'Submit your daily activity',
+      "Chart to analyze members performance",
+      "Export report activity to the excel document",
+      "See ranking in group",
+      "Add group and join group",
+      "Set target activity to the group",
+      "Submit your daily activity",
     ],
   },
   {
@@ -79,28 +107,28 @@ export const DATA = [
     text: "Website to monitor the amount of the spread of the covid virus around the world. This is the project submission that led me to pass the Fundamental Front-End Web Development class on Dicoding.",
     link: "shidqi-cawal-covid.netlify.app",
     repository: "github.com/shidqirifat/cawal-covid.git",
-    slug: 'cawal-covid',
+    slug: "cawal-covid",
     stacks: [
       {
-        name: 'Javascript',
-        color: 'yellow'
+        name: "Javascript",
+        color: "yellow",
       },
       {
-        name: 'Web Component',
-        color: 'slate'
+        name: "Web Component",
+        color: "slate",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
     features: [
-      'Monitor amount of the spread of the covid virus',
-      'Search by country',
+      "Monitor amount of the spread of the covid virus",
+      "Search by country",
     ],
   },
   {
@@ -109,28 +137,26 @@ export const DATA = [
     text: "Slicing design from the sketch to the responsive web. This project is my experiment using swiper.js based tutorial on youtube.",
     link: "shidqirifat.github.io/travel-landing-page/",
     repository: "github.com/shidqirifat/travel-landing-page.git",
-    slug: 'travel-landing-page',
+    slug: "travel-landing-page",
     stacks: [
       {
-        name: 'Javascript',
-        color: 'yellow'
+        name: "Javascript",
+        color: "yellow",
       },
       {
-        name: 'Swiper.js',
-        color: 'slate'
+        name: "Swiper.js",
+        color: "slate",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
-    features: [
-      'Responsive page',
-    ],
+    features: ["Responsive page"],
   },
   {
     date: "October 2021",
@@ -138,19 +164,19 @@ export const DATA = [
     text: "Slicing design from the sketch to the responsive web. This project is submission on Yaumi Digital School.",
     link: "shidqirifat.github.io/sunnyside-shidqi/",
     repository: "github.com/shidqirifat/sunnyside-shidqi.git",
-    slug: 'sunnyside',
+    slug: "sunnyside",
     stacks: [
       {
-        name: 'Javascript',
-        color: 'yellow'
+        name: "Javascript",
+        color: "yellow",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
   },
@@ -160,29 +186,29 @@ export const DATA = [
     text: "Application to create a list of books that want and are reading. Slicing design from the sketch to the responsive web. This project is submission on Dicoding.",
     link: "shidqirifat.github.io/BookShelf/",
     repository: "github.com/shidqirifat/BookShelf.git",
-    slug: 'book-shelf-app',
+    slug: "book-shelf-app",
     stacks: [
       {
-        name: 'Javascript',
-        color: 'yellow'
+        name: "Javascript",
+        color: "yellow",
       },
       {
-        name: 'Local Storage',
-        color: 'slate'
+        name: "Local Storage",
+        color: "slate",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
     features: [
-      'Add, Mark as finish read, and delete book',
-      'List still exist even if the browser is closed',
-      'Responsive page',
+      "Add, Mark as finish read, and delete book",
+      "List still exist even if the browser is closed",
+      "Responsive page",
     ],
   },
   {
@@ -191,23 +217,21 @@ export const DATA = [
     text: "Landing page website to introduce the store. Consists of sections Home, Products, Testimonials, Messages, and About the author. This project is submission on Dicoding.",
     link: "shidqirifat.github.io/Puun/",
     repository: "github.com/shidqirifat/Puun.git",
-    slug: 'puun',
+    slug: "puun",
     stacks: [
       {
-        name: 'Javascript',
-        color: 'yellow'
+        name: "Javascript",
+        color: "yellow",
       },
       {
-        name: 'CSS',
-        color: 'blue'
+        name: "CSS",
+        color: "blue",
       },
       {
-        name: 'HTML',
-        color: 'orange'
+        name: "HTML",
+        color: "orange",
       },
     ],
-    features: [
-      'Responsive page',
-    ],
+    features: ["Responsive page"],
   },
-]
+];
