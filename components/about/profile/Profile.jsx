@@ -6,7 +6,7 @@ export default function Card() {
             <PhotoImage>shidqi</PhotoImage>
             <PhotoTitle>Shidqi Rifat Pangestu</PhotoTitle>
             <PhotoRole>Frontend Developer</PhotoRole>
-            <PhotoRole>Politeknik Negeri Jakarta</PhotoRole>
+            <PhotoRole>Badr Interactive</PhotoRole>
         </div>
     );
 }

@@ -12,12 +12,12 @@ export default function Summary({ handleSeeFull, isSeeFull }) {
         <div className="mb-4">
             <Title mb={4}>Summary</Title>
             <Content isSummary={true}>
-                I am a software/frontend developer with experients +8 months and
-                a fresh graduate from Politeknik Negeri Jakarta in Electrical
-                Engineering major last year. My last work experience is as a
-                Frontend Developer in LingoTalk which education technology
-                startup that focuses on foreign language learning for elementary
-                school students.{" "}
+                I am a software/frontend developer with experients +10 months
+                and a fresh graduate from Politeknik Negeri Jakarta in
+                Electrical Engineering major last year. My last work experience
+                is as a Frontend Developer in LingoTalk which education
+                technology startup that focuses on foreign language learning for
+                elementary school students.{" "}
                 {!isSeeFull && (
                     <span
                         className="cursor-pointer hover:underline underline-offset-2 text-sky-500 hover:text-sky-600 dark:hover:text-sky-400"
