@@ -16,6 +16,15 @@ const Link = ({ link, children }) => {
   );
 };
 
+const Space = () => {
+  return (
+    <>
+      <br />
+      <br />
+    </>
+  );
+};
+
 export default function Summary() {
   useEffect(() => {
     aosAnimate(".about");
@@ -29,14 +38,13 @@ export default function Summary() {
         Jakarta State Polytechnic majoring in Electrical Engineering. Currently,
         I work as a Frontend Developer in an IT consulting company. I am used to
         translating business processes into code and producing products such as
-        company landing pages, web apps, or web dashboards. <br />
-        <br />
+        company landing pages, web apps, or web dashboards.
+        <Space />
         Outside of professional activities, I often deepen my web knowledge by
         studying online classes such as the Dicoding Academy or the YouTube
         channel, experimenting with it, and sharing it in my own GitHub profile{" "}
         <Link link="https://github.com/shidqirifat">@shidqirifat</Link>.
-        <br />
-        <br />I have a mission to be great in my field so that I can share
+        <Space />I have a mission to be great in my field so that I can share
         knowledge more broadly.
       </Content>
     </div>
