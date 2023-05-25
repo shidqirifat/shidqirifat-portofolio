@@ -18,10 +18,6 @@ export const DATA = [
         name: "TailwindCSS",
         color: "blue",
       },
-      {
-        name: "HTML",
-        color: "orange",
-      },
     ],
     features: [
       "Create a discussion or thread",
@@ -31,6 +27,32 @@ export const DATA = [
       "Feedback message for each action",
       "Authentication",
       "Fully responsive",
+    ],
+  },
+  {
+    date: "April 2023",
+    title: "Listhink Studio Web",
+    text: "Company profile for Listhink Studio, a freelance studio that focus to make UI design and web development for client. Build with Next.js, TailwindCSS, and Redux. Provided with English and Indonesian content.",
+    link: "listhink-web.vercel.app/",
+    slug: "listhink-studio",
+    stacks: [
+      {
+        name: "Next.js",
+        color: "sky",
+      },
+      {
+        name: "Redux",
+        color: "purple",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue",
+      },
+    ],
+    features: [
+      "Multi language",
+      "Form integrated with WhatsApp contact",
+      "Responsive page",
     ],
   },
   {
