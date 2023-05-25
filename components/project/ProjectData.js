@@ -1,6 +1,6 @@
 export const DATA = [
   {
-    date: "May 2022",
+    date: "May 2023",
     title: "Forum Discuss",
     text: "Website to discuss and ask questions or threads about any topic related to technology like Stackoverflow. This is the project submission in React Expert class on Dicoding. I build it with React.js, TailwindCSS, Redux, and several libraries for loading and toast notifications. Implements ESLint for consistency and clean code. Also, automation tests like unit tests and integration tests using Jest, component tests using React Testing Library (RTL), and end-to-end tests using Cypress. To deploy the app I use Continuous Integration (CI) and Continuous Deployment (CD) methods using GitHub Action and Vercel.",
     link: "forum-discuss.vercel.app/",
