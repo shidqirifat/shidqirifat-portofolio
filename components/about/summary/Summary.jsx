@@ -3,28 +3,6 @@ import Content from "../../section/Content";
 import { useEffect } from "react";
 import aosAnimate from "../../utils/aosAnimate";
 
-const Link = ({ link, children }) => {
-  return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noreferrer"
-      className="text-sky-500 font-medium hover:text-sky-600 dark:hover:text-sky-400 hover:underline hover:underline-offset-4 transition"
-    >
-      {children}
-    </a>
-  );
-};
-
-const Space = () => {
-  return (
-    <>
-      <br />
-      <br />
-    </>
-  );
-};
-
 export default function Summary() {
   useEffect(() => {
     aosAnimate(".about");
@@ -34,18 +12,12 @@ export default function Summary() {
     <div className="mb-4">
       <Title mb={4}>Summary</Title>
       <Content isSummary={true}>
-        I am a frontend developer with +1 year of experience and graduated from
-        Jakarta State Polytechnic majoring in Electrical Engineering. Currently,
-        I work as a Frontend Developer in an IT consulting company. I am used to
-        translating business processes into code and producing products such as
-        company landing pages, web apps, or web dashboards.
-        <Space />
-        Outside of professional activities, I often deepen my web knowledge by
-        studying online classes such as the Dicoding Academy or the YouTube
-        channel, experimenting with it, and sharing it in my own GitHub profile{" "}
-        <Link link="https://github.com/shidqirifat">@shidqirifat</Link>.
-        <Space />I have a mission to be great in my field so that I can share
-        knowledge more broadly.
+        I am a frontend developer with 1+ year of experience, specializing in
+        Tailwind CSS, Javascript, Typescript, and React/Next.js. I also have
+        some experience in fullstack web development and basic knowledge of
+        MySQL, PHP, and Node.js. I have experience to do code review, leading a
+        team on a community project, strong critical thinking, and the ability
+        to work effectively with teams.
       </Content>
     </div>
   );

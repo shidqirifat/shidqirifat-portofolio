@@ -24,6 +24,12 @@ export const DATA = [
     textLink: "@shidqirifat"
   },
   {
+    text: "Dicoding: ",
+    includeLink: true,
+    link: "https://www.dicoding.com/users/shidqirifat/academies",
+    textLink: "@shidqirifat"
+  },
+  {
     text: "Instagram: ",
     includeLink: true,
     link: "https://www.instagram.com/shidqirifat19/",

@@ -4,10 +4,27 @@ export const DATA = [
     data: [
       {
         list: true,
-        text: "Got Expert React certificate in ",
+        text: "Got achievement as ",
+        includeLink: true,
+        link: "https://drive.google.com/file/d/1tqW-cKVhmoq-ESMcRDFl-N8Fc9Va3IoL/view?usp=sharing",
+        textLink: "Submission Wizard",
+        afterLink: " in Dicoding Elite August period.",
+      },
+      {
+        list: true,
+        text: "Start my freelance journey as ",
+        includeLink: true,
+        link: "https://www.dicoding.com/users/shidqirifat/academies",
+        textLink: "External Reviewer (Elite)",
+        afterLink: " at Dicoding.",
+      },
+      {
+        list: true,
+        text: "Got ",
         includeLink: true,
         link: "https://www.dicoding.com/certificates/72ZD8YWWJZYW",
-        textLink: "Dicoding",
+        textLink: "Expert React certificate",
+        afterLink: " in Dicoding.",
       },
     ],
   },
@@ -16,10 +33,11 @@ export const DATA = [
     data: [
       {
         list: true,
-        text: "Got Expert Frontend Web certificate in ",
+        text: "Got ",
         includeLink: true,
         link: "https://www.dicoding.com/certificates/N9ZO7891DZG5",
-        textLink: "Dicoding",
+        textLink: "Expert Frontend Web certificate",
+        afterLink: "  in Dicoding.",
       },
       {
         list: true,
@@ -27,6 +45,7 @@ export const DATA = [
         includeLink: true,
         link: "https://badr.co.id/id/",
         textLink: "Badr Interactive",
+        afterLink: ".",
       },
       {
         list: true,
@@ -34,7 +53,7 @@ export const DATA = [
         includeLink: true,
         link: "http://istiqomah.yaumi.id/",
         textLink: "Istiqomah.id",
-        afterLink: " power by Yaumi.",
+        afterLink: " powered by Yaumi.",
       },
       {
         list: true,
@@ -156,15 +175,6 @@ export const DATA = [
       {
         list: true,
         text: "Start my journey as Electrical Engineering student at Politeknik Negeri Jakarta.",
-      },
-    ],
-  },
-  {
-    year: 2001,
-    data: [
-      {
-        list: true,
-        text: "I was born 🐣",
       },
     ],
   },

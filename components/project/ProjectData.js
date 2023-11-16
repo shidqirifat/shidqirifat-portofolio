@@ -31,6 +31,24 @@ export const DATA = [
   },
   {
     date: "April 2023",
+    title: "Raffialdo Personal Web",
+    text: "Web profile Raffialdo, UI/UX Designer from Indonesia and also my friend. The design is made by him and I help him to make it live.",
+    link: "personal-website-raffialdo-bayu.vercel.app/",
+    slug: "personal-web-raffialdo",
+    stacks: [
+      {
+        name: "Next.js",
+        color: "sky",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue",
+      },
+    ],
+    features: ["Responsive page"],
+  },
+  {
+    date: "April 2023",
     title: "Listhink Studio Web",
     text: "Company profile for Listhink Studio, a freelance studio that focus to make UI design and web development for client. Build with Next.js, TailwindCSS, and Redux. Provided with English and Indonesian content.",
     link: "listhink-web.vercel.app/",

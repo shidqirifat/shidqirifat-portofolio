@@ -5,11 +5,11 @@ function PhotoImage({ children }) {
     <>
       <div className="w-56 h-56 mx-auto relative mb-6 rounded-full overflow-hidden transition duration-700">
         <Image
-          src={`/images/${children}.png`}
+          src={`/images/${children}.jpg`}
           alt="Shidqi Rifat Pangestu"
           layout="fill"
           objectFit="cover"
-          className="scale-110"
+          className="scale-105"
           priority
         />
       </div>
